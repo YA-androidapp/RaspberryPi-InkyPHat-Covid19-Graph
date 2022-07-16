@@ -10,13 +10,16 @@
 
 ## Env
 
-```powershell
-py -m venv myenv
-.\myenv\Scripts\Activate.ps1
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
 
-py -m pip install -U pip
-py -m pip install matplotlib numpy pandas pillow
+python3 -m pip install -U pip
+python3 -m pip install matplotlib numpy pandas pillow
 
+curl https://get.pimoroni.com/inky | bash
+
+python3 covid19.py yellow
 ```
 
 ---
