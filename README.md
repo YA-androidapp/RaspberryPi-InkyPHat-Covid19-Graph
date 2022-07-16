@@ -16,6 +16,7 @@ source myenv/bin/activate
 
 python3 -m pip install -U pip
 python3 -m pip install matplotlib numpy pandas pillow
+sudo apt install -y libatlas-base-dev
 
 curl https://get.pimoroni.com/inky | bash
 
