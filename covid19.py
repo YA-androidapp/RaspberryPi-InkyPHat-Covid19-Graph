@@ -7,8 +7,8 @@ import sys
 
 # 定数
 IMAGE_DPI = 96
-INKY_HEIGHT = 122
-INKY_WIDTH = 250
+INKY_HEIGHT = 104
+INKY_WIDTH = 212
 CSV_PATH = 'https://covid19.mhlw.go.jp/public/opendata/newly_confirmed_cases_daily.csv'
 
 
